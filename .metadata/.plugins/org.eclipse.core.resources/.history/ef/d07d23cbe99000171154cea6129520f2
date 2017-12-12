@@ -1,0 +1,14 @@
+package com.restfully.shop.test.CustomerResourceTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CustomerResourceTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

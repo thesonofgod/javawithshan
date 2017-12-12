@@ -1,0 +1,38 @@
+package com.AdJava;
+
+import java.io.*;
+import java.net.URI;
+import java.nio.file.*;
+
+public class Pathtest {
+public static void main(String[] args) throws exception{
+	
+	Path path3 = Paths.get("E:\\data");
+	Path path4 = Paths.get("E:\\user\\home");
+	
+	Path relativepath = path3.relativize(path4);
+	System.out.println(path3.relativize(path4));
+	System.out.println(path3.resolve(relativepath).normalize());
+	Path path199 = Paths.get( new URI("file:// c:/ zoo-info/ November/ employees.txt"));
+
+	
+//	Files.exists(Paths.get(/Prashanth/Login.class) );
+	
+	try{
+		System.out.println(Paths.get("E:\\horse\food.source").toRealPath());
+		System.out.println(Paths.get(".././food.txt").toRealPath());
+		
+	//	path3 = FileInputStream.class();
+		
+		
+		
+	boolean P = Files.isSameFile(Paths.get("/Library/Java/JavaVirtualMachine/jdk1.8.0_111.jdk/Contents/Home/bin/java"), Paths.get("/Library/Java/JavaVirtualMachine/jdk1.8.0_111.jdk/Contents/Home/bin/java"));	
+	System.out.println(P);
+		
+	}catch(Exception e){
+		
+	}
+	
+	
+}
+}

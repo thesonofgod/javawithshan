@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1503254805418_3" label="File" name="File">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/StrutsTest/WebContent/WEB-INF/lib" type="2"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1494040516779_0" label="Window Working Set" name="Aggregate for window 1494040516778"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495371166587_1" label="Window Working Set" name="Aggregate for window 1495371166587"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495486640371_2" label="Window Working Set" name="Aggregate for window 1495486640371"/>
+<mruList name="File"/>
+</workingSetManager>

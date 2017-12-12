@@ -1,0 +1,29 @@
+package com.AdJava;
+
+import java.io.*;
+import java.nio.file.*;
+
+public class Pathtest {
+public static void main(String[] args){
+	
+	Path path3 = Paths.get("E:\\data");
+	Path path4 = Paths.get("E:\\user\\home");
+	
+	Path relativepath = path3.relativize(path4);
+	System.out.println(path3.relativize(path4));
+	System.out.println(path3.resolve(relativepath).normalize());
+	
+//	Files.exists(Paths.get(/Prashanth/Login.class) );
+	
+	try{
+		System.out.println(Paths.get("E:\\horse\food.source").toRealPath());
+		System.out.println(Paths.get(".././food.txt").toRealPath());
+	System.out.println(Files.isSameFile(Paths.get("/Users/Prashanth/PathTest.java"), Paths.get("/Users/Prashanth/PathTest.class")));	
+		
+	}catch(Exception e){
+		
+	}
+	
+	
+}
+}
